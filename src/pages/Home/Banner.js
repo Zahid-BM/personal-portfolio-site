@@ -11,6 +11,8 @@ import { Bounce, LightSpeed, Slide } from 'react-reveal';
 import Pulse from 'react-reveal/Pulse';
 import Jello from 'react-reveal/Jello';
 import RubberBand from 'react-reveal/RubberBand';
+import HeadShake from 'react-reveal/HeadShake';
+import Shake from 'react-reveal/Shake';
 
 
 
@@ -49,9 +51,11 @@ const Banner = () => {
                     </Col>
                     <Col className='text-center text-sm-end mt-3' lg={6}>
                         <Slide right>
-                            <Pulse duration={5000} forever='true'>
+
+                            <Shake forever='true' duration={20000}>
                                 <img className='img-fluid profile-img' src={profileImg} alt="" />
-                            </Pulse>
+                            </Shake>
+
                         </Slide>
                     </Col>
 
