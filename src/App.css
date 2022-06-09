@@ -12,7 +12,8 @@ width: 390px;
 }
 .hover1:hover{
     transform: translate(0,-10px);
-    transition: 0.4s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 

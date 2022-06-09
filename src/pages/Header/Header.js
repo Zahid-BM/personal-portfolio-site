@@ -45,9 +45,11 @@ const Header = () => {
                     </Nav>
 
                     <Nav>
-                        <Button variant='outline-warning' size='lg' className='rounded-pill px-5 hover1'>
-                            Hire Me
-                        </Button>
+                        <Pulse forever='true'>
+                            <Button variant='outline-warning' size='lg' className='rounded-pill px-5 hover1'>
+                                Hire Me
+                            </Button>
+                        </Pulse>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
