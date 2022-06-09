@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar, NavLink } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import logo from '../../resources/images/Logo-1.png'
+import logo from '../../resources/images/Logo-1.png';
+import Pulse from 'react-reveal/Pulse';
 
 
 const Header = () => {
@@ -12,11 +13,13 @@ const Header = () => {
                     <LinkContainer to={'home'}>
                         <NavLink>
 
-                            <img
-                                src={logo}
-                                className="d-inline-block align-top fw-bolder my-0"
-                                alt="React Bootstrap logo"
-                            />
+                            <Pulse forever='true'>
+                                <img
+                                    src={logo}
+                                    className="d-inline-block align-top fw-bolder my-0"
+                                    alt="React Bootstrap logo"
+                                />
+                            </Pulse>
                         </NavLink>
                     </LinkContainer>
 
