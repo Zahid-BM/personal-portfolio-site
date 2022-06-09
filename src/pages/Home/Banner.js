@@ -29,7 +29,7 @@ const Banner = () => {
                                 <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
                                 <Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4'>Download Resume</Button>
                                 <br />
-                                <img className='me-3 hover1' src={github} alt="" /><img className='me-3 hover1' src={linkedin} alt="" /><img className='me-3 hover1' src={whatsapp} alt="" /> <img className='me-3 hover1' src={email} alt="" />
+                                <img className='me-4 hover1' src={github} alt="" /><img className='me-4 hover1' src={linkedin} alt="" /><img className='me-4 hover1' src={whatsapp} alt="" /> <img className='me-4 hover1' src={email} alt="" />
                             </div>
                         </Slide>
 
