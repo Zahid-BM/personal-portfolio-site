@@ -1,14 +1,25 @@
 import React from 'react';
-import bannerBg from '../../resources/images/banner-bg.png'
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import Header from '../Header/Header';
+import profileImg from '../../resources/images/profile.png';
+import imgBg from '../../resources/images/img-bg.png';
 
 const Banner = () => {
     return (
-        <div style={{ backgroundImage: `url(${bannerBg})`, backgroundSize: 'cover' }}>
+        <div className='bg-banner'>
             <Header></Header>
-            <h1>This is Banner</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto magnam debitis a quaerat saepe suscipit perspiciatis facere sapiente dicta, eligendi obcaecati, quibusdam animi magni. Tenetur consequuntur cumque obcaecati possimus sequi et exercitationem quia, voluptate cupiditate ex cum non, nulla culpa voluptates, ab voluptatibus minima facere tempora eveniet molestiae voluptas laudantium commodi. Iure error esse soluta exercitationem quaerat fuga aspernatur, nihil quae quia, est quibusdam corporis animi officiis fugiat corrupti sed ducimus minus! Autem molestias aliquam laborum cum non corrupti molestiae, reiciendis explicabo, ad dolorum maxime itaque error quo sapiente voluptas. Eum aliquid laborum delectus a voluptas dolorum! Officia ullam quas optio ducimus dolores beatae rem odit obcaecati nesciunt voluptate velit laudantium impedit, sunt nisi quam. Quisquam, maiores? Ex quod molestias similique maiores numquam commodi exercitationem consectetur est, perferendis inventore reiciendis doloremque aspernatur, dicta cum suscipit praesentium corporis eligendi nulla fugiat quos corrupti! Qui nostrum repudiandae alias modi velit aliquid ducimus earum? Eius recusandae corporis unde, fugit laboriosam tempore tempora consequatur officia sunt voluptas commodi, qui voluptate totam, magnam aliquid? Vel magnam cumque eius suscipit numquam quae totam doloremque nisi deleniti vero praesentium repellat recusandae, amet sequi explicabo sapiente error accusamus quam accusantium a assumenda expedita? Soluta nulla ullam similique commodi. A veniam ut natus amet soluta quaerat dolorum, maxime sunt, consequatur labore repellat aut, error quos laudantium. Esse tempore voluptatum ea, omnis earum provident nostrum aliquam aliquid cumque itaque dolores culpa voluptatibus, non, repellat sit cupiditate natus qui exercitationem eaque iusto eveniet doloremque id. Magni hic quia sed, maiores qui vitae doloremque doloribus aliquam nihil veritatis quos odio sit eius rem. Quo, recusandae voluptatum maxime eaque ad aliquid. Maxime similique dolorem excepturi? Exercitationem illo dolorum, esse aliquid architecto nulla animi ipsam. Perferendis aperiam aliquid, dolor rem odio illo at sit rerum suscipit, ducimus modi, obcaecati nesciunt blanditiis eos. Soluta quaerat dolore pariatur nemo unde. Exercitationem deserunt rem vero totam aliquid repellat, a obcaecati? Cum, cupiditate? Dicta voluptates similique molestias omnis, aliquid recusandae quaerat optio perspiciatis dolorum tenetur natus, sit tempore. Vero aut possimus a aspernatur molestias. Similique magni beatae architecto quisquam fugiat quis porro odit alias at sequi, fuga neque nostrum cumque expedita tempore, labore aspernatur voluptates qui quaerat eius ut nam ducimus veniam! Inventore exercitationem corrupti officiis ratione pariatur corporis perspiciatis optio quis amet nesciunt, facere distinctio itaque tenetur autem eius ab dolore nobis! Cum architecto illum explicabo. Quis, ut vitae nobis velit laborum accusamus deleniti earum culpa, esse molestiae praesentium nisi quaerat sed neque exercitationem iusto ducimus amet numquam, fugiat laudantium eaque. Necessitatibus repudiandae, enim excepturi pariatur id nemo quo cupiditate et eaque, minus doloribus sapiente repellat, nesciunt omnis at. Molestiae tempore, blanditiis non voluptatibus similique libero tenetur pariatur unde, mollitia ea voluptatem officiis sit ut perferendis facilis nam culpa. Debitis quis commodi nesciunt vel! Facilis, voluptas nemo corrupti mollitia dignissimos ipsa itaque reiciendis deleniti doloribus perspiciatis alias repudiandae, explicabo dolor voluptatibus excepturi ex repellendus atque id ea blanditiis? Aut nemo dolores quidem voluptate facere doloremque commodi fugiat at sapiente voluptas, expedita molestias voluptatem vel aliquid adipisci cumque!</p>
-
+            <Container style={{ backgroundImage: `url(${imgBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+                <Row>
+                    <Col className='my-auto' lg={6}>
+                        <h1 className='fw-bolder'>Hello, I Am <br /> <span className='fw-bolder display-2 title'>BM. Zahidul Islam</span></h1>
+                        <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
+                        <Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1'>Download Resume</Button>
+                    </Col>
+                    <Col className='text-center mt-3' lg={6}>
+                        <img className='img-fluid profile-img' src={profileImg} alt="" />
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 };

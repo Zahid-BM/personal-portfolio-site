@@ -1,6 +1,18 @@
 .font-link {
   font-family: 'Josefin Sans', sans-serif;
 }
-
+.bg-banner{
+  background-image: linear-gradient(#EFF8FF, #B6FFCE);
+}
+.title{
+  color: #3E7C17;
+}
+.profile-img{
+width: 390px;
+}
+.hover1:hover{
+    transform: translate(0,-10px);
+    transition: 0.4s;
+}
 
 

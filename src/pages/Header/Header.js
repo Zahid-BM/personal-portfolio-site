@@ -11,6 +11,7 @@ const Header = () => {
                 <Navbar.Brand>
                     <LinkContainer to={'home'}>
                         <NavLink>
+
                             <img
                                 src={logo}
                                 className="d-inline-block align-top fw-bolder my-0"
@@ -24,24 +25,24 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mx-auto ">
                         <LinkContainer to='home'>
-                            <NavLink className='me-5 btn-sm btn-outline-warning rounded-pill px-4'>
+                            <NavLink className='me-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
                                 Home
                             </NavLink>
                         </LinkContainer>
                         <LinkContainer to='about'>
-                            <NavLink className='me-5 btn-sm btn-outline-warning rounded-pill px-4'>
+                            <NavLink className='me-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
                                 About
                             </NavLink>
                         </LinkContainer>
                         <LinkContainer to='portfolio'>
-                            <NavLink className='me-5 btn-sm btn-outline-warning rounded-pill px-4'>
+                            <NavLink className='me-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
                                 Portfolio
                             </NavLink>
                         </LinkContainer>
                     </Nav>
-                
+
                     <Nav>
-                        <Button variant='outline-warning' size='md' className='rounded-pill px-5'>
+                        <Button variant='outline-warning' size='lg' className='rounded-pill px-5 hover1'>
                             Hire Me
                         </Button>
                     </Nav>
