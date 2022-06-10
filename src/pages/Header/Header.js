@@ -8,7 +8,7 @@ import Pulse from 'react-reveal/Pulse';
 const Header = () => {
     return (
         <>
-            <Navbar style={{height: '105px'}} collapseOnSelect className='nav-bg' expand="lg" sticky='top'>
+            <Navbar style={{ height: '105px' }} collapseOnSelect className='nav-bg' expand="lg" sticky='top'>
                 <Container className='nav-bg'>
                     <Navbar.Brand>
                         <LinkContainer to={'/home'}>
@@ -31,14 +31,19 @@ const Header = () => {
                                     Home
                                 </NavLink>
                             </LinkContainer>
+                            <LinkContainer to='/project'>
+                                <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
+                                    Projects
+                                </NavLink>
+                            </LinkContainer>
                             <LinkContainer to='/about'>
                                 <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
                                     About
                                 </NavLink>
                             </LinkContainer>
-                            <LinkContainer to='/portfolio'>
+                            <LinkContainer to='/blogs'>
                                 <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
-                                    Portfolio
+                                    Blogs
                                 </NavLink>
                             </LinkContainer>
                         </Nav>
