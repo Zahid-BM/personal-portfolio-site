@@ -7,10 +7,12 @@ import linkedin from '../../resources/images/icons/linkedin.png';
 import whatsapp from '../../resources/images/icons/whatsapp.png';
 import email from '../../resources/images/icons/email.png';
 import download from '../../resources/images/icons/download.png';
-import { LightSpeed, Slide } from 'react-reveal';
+import { Bounce, LightSpeed } from 'react-reveal';
 import Pulse from 'react-reveal/Pulse';
 import Shake from 'react-reveal/Shake';
 import Jump from 'react-reveal/Jump';
+import Zoom from 'react-reveal/Zoom';
+import Flip from 'react-reveal/Flip';
 
 
 
@@ -23,15 +25,15 @@ const Banner = () => {
             <Container style={{ backgroundImage: `url(${imgBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                 <Row>
                     <Col className='my-auto text-center text-sm-start' lg={6}>
-                        <Slide left>
+                        <Bounce left>
                             <div className='pt-4'>
-                                <h1 className='fw-bolder'>Hello, I Am <br /> <span className='fw-bolder display-4 title '>
-                                    <LightSpeed left cascade duration={3000} forever='true'>
+                                <h1 className='fw-bolder'>Hello, I Am <br /> <span className='fw-bolder display-4 text-warning '>
+                                    <Flip left cascade duration={4000} forever='true'>
                                         BM. Zahidul Islam
-                                    </LightSpeed>
+                                    </Flip>
                                 </span></h1>
                                 <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
-                                <a href={resumeLink} download><Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-5'>Download Resume
+                                <a href={resumeLink} download><Button variant='outline-warning' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-5'>Download Resume
                                     <Jump forever='true'>
                                         <img className='ms-3' src={download} alt="" />
                                     </Jump>
@@ -49,17 +51,17 @@ const Banner = () => {
                                     </p>
                                 </Pulse>
                             </div>
-                        </Slide>
+                        </Bounce>
 
                     </Col>
                     <Col className='text-center text-sm-end mt-3' lg={6}>
-                        <Slide right>
+                        <Bounce right>
 
                             <Shake forever='true' duration={20000}>
                                 <img className='img-fluid profile-img' src={profileImg} alt="" />
                             </Shake>
 
-                        </Slide>
+                        </Bounce>
                     </Col>
 
                 </Row>
