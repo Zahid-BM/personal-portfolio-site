@@ -18,6 +18,13 @@ width: 390px;
 .nav-bg{
   background-color: #EFF8FF;
 }
+.p-m{
+  margin-right: 99px;
+}
+.custom-radius{
+  border-radius: 10%;
+}
+
 
 
 

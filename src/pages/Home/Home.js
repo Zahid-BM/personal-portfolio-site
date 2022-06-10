@@ -1,11 +1,13 @@
 import React from 'react';
+import PageTitle from '../shared/PageTitle/PageTitle';
 import Banner from './Banner';
 
 const Home = () => {
     return (
-        <div>
+        <>
+            <PageTitle title={'Home'}></PageTitle>
             <Banner />
-        </div>
+        </>
     );
 };
 
