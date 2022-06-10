@@ -30,7 +30,7 @@ const ContactMe = () => {
 
                     <Col lg={4}>
                         <Bounce top>
-                            <div className='shadow-lg custom-radius my-auto mb-4'>
+                            <div className='shadow-lg custom-radius my-auto mb-4 py-5 bg-box'>
                                 <div className="p-4 d-flex flex-column align-items-center">
                                     <div className='d-flex align-items-center my-3'>
                                         <RubberBand duration={1500} forever='true'><div className='bg-warning rounded-circle p-3 me-3'><img src={location} alt="" /></div></RubberBand>
@@ -62,9 +62,9 @@ const ContactMe = () => {
                     </Col>
 
 
-                    <Col lg={8}>
+                    <Col className='my-auto' lg={8}>
                         <Bounce right>
-                            <Form onSubmit={handleFormSubmit} className=''>
+                            <Form onSubmit={handleFormSubmit}>
                                 <Row className='mb-3'>
                                     <Col>
                                         <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' placeholder="Name" name='name' required />
@@ -84,9 +84,11 @@ const ContactMe = () => {
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                     <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' as="textarea" rows={3} placeholder="Your Message" name='message' required />
                                 </Form.Group>
-                                <Button size='lg' variant="warning" className='rounded-pill px-5 py-3 hover1' type="submit">
-                                    Submit Message
-                                </Button>
+                                <div className='text-center text-sm-start'>
+                                    <Button size='lg' variant="warning" className='rounded-pill px-5 py-3 hover1 mt-3' type="submit">
+                                        Submit Message
+                                    </Button>
+                            </div>
                             </Form>
                         </Bounce>
                     </Col>

@@ -33,8 +33,8 @@ const Banner = () => {
                                     </Flip>
                                 </span></h1>
                                 <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
-                                <a href={resumeLink} download><Button variant='outline-warning' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-5'>Download Resume
-                                    <Jump forever='true'>
+                                <a href={resumeLink} download><Button variant='outline-warning' className='px-4 py-2 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-6'>Download Resume
+                                    <Jump duration={2000} forever='true'>
                                         <img className='ms-3' src={download} alt="" />
                                     </Jump>
                                 </Button></a>
