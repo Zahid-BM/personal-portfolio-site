@@ -7,14 +7,17 @@ import github from '../../resources/images/icons/github.png';
 import linkedin from '../../resources/images/icons/linkedin.png';
 import whatsapp from '../../resources/images/icons/whatsapp.png';
 import email from '../../resources/images/icons/email.png';
+import download from '../../resources/images/icons/download.png';
 import { LightSpeed, Slide } from 'react-reveal';
 import Pulse from 'react-reveal/Pulse';
 import Shake from 'react-reveal/Shake';
+import Jump from 'react-reveal/Jump';
 
 
 
 const Banner = () => {
     const resumeLink = 'https://drive.google.com/uc?export=download&id=1sq-M0RvSuHmKpXdE9QMLp9bTC574rV5Q';
+
 
     return (
         <div className='bg-banner'>
@@ -30,7 +33,11 @@ const Banner = () => {
                                     </LightSpeed>
                                 </span></h1>
                                 <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
-                                <a href={resumeLink} download><Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4'>Download Resume</Button></a>
+                                <a href={resumeLink} download><Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-5'>Download Resume
+                                    <Jump forever='true'>
+                                        <img className='ms-3' src={download} alt="" />
+                                    </Jump>
+                                </Button></a>
                                 <br />
                                 <Pulse duration={3000} forever='true'>
                                     <p>
