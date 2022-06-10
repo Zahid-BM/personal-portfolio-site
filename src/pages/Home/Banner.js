@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import Header from '../Header/Header';
 import profileImg from '../../resources/images/profile.png';
 import imgBg from '../../resources/images/img-bg.png';
 import github from '../../resources/images/icons/github.png';
@@ -21,13 +20,12 @@ const Banner = () => {
 
     return (
         <div className='bg-banner'>
-            <Header></Header>
             <Container style={{ backgroundImage: `url(${imgBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                 <Row>
                     <Col className='my-auto text-center text-sm-start' lg={6}>
                         <Slide left>
-                            <div>
-                                <h1 className='fw-bolder'>Hello, I Am <br /> <span className='fw-bolder display-2 title '>
+                            <div className='pt-4'>
+                                <h1 className='fw-bolder'>Hello, I Am <br /> <span className='fw-bolder display-4 title '>
                                     <LightSpeed left cascade duration={3000} forever='true'>
                                         BM. Zahidul Islam
                                     </LightSpeed>
