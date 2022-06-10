@@ -14,6 +14,7 @@ import Shake from 'react-reveal/Shake';
 
 
 const Banner = () => {
+    const resumeLink = 'https://drive.google.com/uc?export=download&id=1sq-M0RvSuHmKpXdE9QMLp9bTC574rV5Q';
 
     return (
         <div className='bg-banner'>
@@ -29,9 +30,7 @@ const Banner = () => {
                                     </LightSpeed>
                                 </span></h1>
                                 <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
-
-                                <Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4'>Download Resume</Button>
-
+                                <a href={resumeLink} download><Button variant='outline-success' className='px-5 py-3 rounded-pill fw-bold hover1 mb-4'>Download Resume</Button></a>
                                 <br />
                                 <Pulse duration={3000} forever='true'>
                                     <p>
