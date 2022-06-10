@@ -7,11 +7,8 @@ import github from '../../resources/images/icons/github.png';
 import linkedin from '../../resources/images/icons/linkedin.png';
 import whatsapp from '../../resources/images/icons/whatsapp.png';
 import email from '../../resources/images/icons/email.png';
-import { Bounce, LightSpeed, Slide } from 'react-reveal';
+import { LightSpeed, Slide } from 'react-reveal';
 import Pulse from 'react-reveal/Pulse';
-import Jello from 'react-reveal/Jello';
-import RubberBand from 'react-reveal/RubberBand';
-import HeadShake from 'react-reveal/HeadShake';
 import Shake from 'react-reveal/Shake';
 
 
