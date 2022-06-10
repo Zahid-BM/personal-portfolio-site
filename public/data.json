@@ -1,0 +1,48 @@
+[
+    { 
+        "id": "1",
+        "img1": "https://i.ibb.co/k65pBNL/z-z-1.png",
+        "img2": "https://i.ibb.co/XYbcH5v/z-z-3.png",
+        "img3": "https://i.ibb.co/tsM1Q80/z-z-4.png",
+        "img4": "https://i.ibb.co/xmPZyNq/z-z-5.png",
+        "name": "Z&Z Trims Manufacturer",
+        "about": "A Full Stack Trims Manufacturer Website with MERN",
+        "description1": "User can create an account with email verification, login  and can do password reset if password is forgotten.",
+         "description2": "A user can visit but can not order until having an account coz Order page is a protected route. Social login is added to make that easier. But without email verification no user can.order any item.",
+         "description3": "General user will have a fully functional CRUD operation experience. They can add their profile to the database and can add a review that will be displayed in the review section.",
+               "description4": "Payment Gateway available. User can pay via credit card and admin can verify for further action.",
+         "description5": "Admin dashboard and admin role is available. Admin can see all the orders, modify orders, can add a new item and ship the products after payment verification. An admin can also make a user as an admin and remove as well.",
+         "technology": "Reactjs, Express, Node, MongoDB, Bootstrap, React Query, Rest API, Firebase, Stripe Payment Gateway, Heroku, React Router etc."
+    },
+    {
+        "id": "2",
+        "img1": "https://i.ibb.co/4NSm245/fruits-1.png",
+        "img2": "https://i.ibb.co/85grcL7/fruits-2.png",
+        "img3": "https://i.ibb.co/cDBHjDV/fruits-3.png",
+        "img4": "https://i.ibb.co/V39mtrw/fruits-4.png",
+        "name": "Fruits Valley",
+        "about": "A Full Stack Trims Manufacturer Website with MERN",
+        "description1": "User can create an account with email verification, login  and can do password reset if password is forgotten.",
+         "description2": "A user can visit but can not order until having an account coz Order page is a protected route. Social login is added to make that easier. But without email verification no user can.order any item.",
+         "description3": "Registered user will have a fully functional CRUD operation experience. They can restock items, can deliver the items. If deliver then item quantity will be decreased and if restock then item quantity will be increased in the database. And updated data will be displayed on UI.",
+               "description4": "User can request an item to stock and the user input will be stored in the database. User also can see all user's requested products in the Requested Items Page.",
+         "description5": " Individual user can see all his/her ordered products in my orders page.There user can delete the order and the order will be deleted from database and update the UI as well.",
+         "technology": "Reactjs, Express, Node, MongoDB, Bootstrap, Axios, Rest API, Firebase, Firebase Authentication Hook, Heroku, React Router etc."
+    },
+    {
+        "id": "3",
+        "img1": "https://i.ibb.co/nC404nv/alem-1.png",
+        "img2": "https://i.ibb.co/r2PYH1C/alem-2.png",
+        "img3": "https://i.ibb.co/wMZ396Q/alem-3.png",
+        "img4": "https://i.ibb.co/BP1HTSw/alem-4.png",
+        "name": "Alem Life Coach",
+        "about": "A Full functional Life Coach Website with Reactjs.",
+        "description1": "User can create an account with email verification and can login with registered email and password.",
+         "description2": "If a user forgets the password then can reset the password via reset password link sent to email.",
+         "description3": "A user can visit but can not order until having an account coz Enroll/purchase page is a protected route. Social login is added to make that easier.",
+               "description4": "Without email verification no user can enroll any service. If user click to enroll service then verified user can see the purchase page.",
+         "description5": "Track user's route location from where he/she attempted to visit protected route and if not logged in then redirects to login page. After login user will be redirected to the targeted protected route. Even if reload then user stays in the same route.",
+         "technology": "Reactjs, Bootstrap, Rest API, Firebase, Firebase Authentication Hook, React Router etc."
+    }
+   
+]
