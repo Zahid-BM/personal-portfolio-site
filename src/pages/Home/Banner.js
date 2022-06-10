@@ -35,11 +35,13 @@ const Banner = () => {
                                 <br />
                                 <Pulse duration={3000} forever='true'>
                                     <p>
+                                        <a href="https://github.com/Zahid-BM" target={'_blank'}
+                                            rel={'noopener noreferrer'}><img className='me-4 hover1' src={github} alt="" /></a>
+                                        <a href="https://www.linkedin.com/in/bm-zahidul-islam-9250a4156/" target={'_blank'} rel={'noopener noreferrer'}><img className='me-4 hover1' src={linkedin} alt="" /></a>
+                                        <a href="mailto:bmzahidulislam@outlook.com"><img className='me-4 hover1' src={email} alt="" /></a>
+                                        <a href="https://wa.me/1675633294" target={'_blank'}
+                                            rel={'noopener noreferrer'}><img className='me-4 hover1' src={whatsapp} alt="" /></a>
 
-                                        <img className='me-4 hover1' src={github} alt="" />
-                                        <img className='me-4 hover1' src={linkedin} alt="" />
-                                        <img className='me-4 hover1' src={email} alt="" />
-                                        <img className='me-4 hover1' src={whatsapp} alt="" />
                                     </p>
                                 </Pulse>
                             </div>
