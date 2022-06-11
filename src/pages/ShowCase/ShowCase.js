@@ -1,16 +1,14 @@
 import React from 'react';
-import coming from '../../resources/images/coming.png'
+import coming from '../../resources/images/coming.png';
 import PageTitle from '../shared/PageTitle/PageTitle';
 
-const Blogs = () => {
+const ShowCase = () => {
     return (
         <>
-<PageTitle title={'Blogs'} pageColor={'bg-banner'}></PageTitle>
+            <PageTitle title={'Showcase'} pageColor={'bg-banner'}></PageTitle>
             <img className='w-100 h-100 img-fluid' src={coming} alt="" />
-
-
         </>
     );
 };
 
-export default Blogs;
+export default ShowCase;

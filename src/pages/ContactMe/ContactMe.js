@@ -8,6 +8,7 @@ import { toast } from 'react-toastify';
 import Bounce from 'react-reveal/Bounce';
 import RubberBand from 'react-reveal/RubberBand';
 
+
 const ContactMe = () => {
     const handleFormSubmit = e => {
         e.preventDefault();
@@ -88,7 +89,7 @@ const ContactMe = () => {
                                     <Button size='lg' variant="warning" className='rounded-pill px-5 py-3 hover1 mt-3' type="submit">
                                         Submit Message
                                     </Button>
-                            </div>
+                                </div>
                             </Form>
                         </Bounce>
                     </Col>

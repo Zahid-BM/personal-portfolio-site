@@ -10,6 +10,9 @@ import Zandz from './pages/Projects/Zandz';
 import FruitsValley from './pages/Projects/FruitsValley';
 import AlemLifeCoach from './pages/Projects/AlemLifeCoach';
 import ReviewBaba from './pages/Projects/ReviewBaba';
+import About from './pages/About/About';
+import Blogs from './pages/Blogs/Blogs';
+import ShowCase from './pages/ShowCase/ShowCase';
 
 
 
@@ -22,6 +25,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/blogs' element={<Blogs />} />
+        <Route path='/showcase' element={<ShowCase />} />
         <Route path='/zandz' element={<Zandz />} />
         <Route path='/fruitsvalley' element={<FruitsValley />} />
         <Route path='/alemlifecoach' element={<AlemLifeCoach />} />

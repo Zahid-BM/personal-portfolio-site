@@ -1,10 +1,49 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import PageTitle from '../shared/PageTitle/PageTitle';
+import img from '../../resources/images/me.png';
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
 
 const About = () => {
     return (
-        <div>
+        <>
+            <PageTitle title={'About'} pageColor={'bg-banner'}></PageTitle>
+            <Container>
+                <Row>
+                    <Col className='my-auto' lg={6}>
+                        <Roll left>
+                            <h1 className="fw-bolder display-1 mt-4 mt-md-0">About Me</h1>
+                            <h2>A short introduction</h2>
+                        </Roll>
 
-        </div>
+                        <hr />
+                        <Bounce bottom cascade>
+                            <div className='text-secondary'>
+                                <p>
+                                    I am a passionate programmer who loves to code and create something interesting that can make me different from others. Learning is my habit and dedication is my key. Professionalism, honesty and skills make me more confident than ever.
+                                </p>
+
+                                <p>
+                                    I am expert is HTML, CSS, BOOTSTRAP, REACTJS and good in MONGODB, EXPRESS and NODEJS. I am familiar with Neact Native, Nextjs and unit test. CAn also work with Tailwind CSS and DaisyUi. I am confident to learn and cope with any technology by the soonest possible time Insha Allah.
+                                </p>
+
+                                <p>
+                                    I believe by enriching myself and my skills I can contribute more for the society and the people as well.......
+                                </p>
+                                <p className='text-end mt-4 fw-bold'>
+                                    BM. Zahidul Islam <br />
+                                    A Programmer with passion
+                                </p>
+                           </div>
+                        </Bounce>
+                    </Col>
+                    <Col lg={6}>
+                        <Bounce top><img className='w-100' src={img} alt="" /></Bounce>
+                    </Col>
+                </Row>
+            </Container>
+        </>
     );
 };
 
