@@ -1,11 +1,13 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 
 const SingleProject = ({ project }) => {
-    const { name, id, img1, about, technology, siteLink } = project;
-    return (
+    const { name, img1, about, technology, siteLink } = project;
 
+    return (
         <Col>
             <Card className='border-0 h-100 shadow'>
                 <Card.Img className='' variant="top" src={img1} />
@@ -23,10 +25,9 @@ const SingleProject = ({ project }) => {
                     <div className="d-flex justify-content-evenly mt-auto">
                         <div>
                             <a href={siteLink} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-4 rounded-pill text-white hover1'>Visit Site</Button></a>
-
                         </div>
                         <div>
-                            <Button variant='warning' className='px-4 rounded-pill text-white hover1'>Details info</Button>
+                            <Link to='/zandz'><Button variant='warning' className='px-4 rounded-pill text-white hover1'>Details info</Button></Link>
                         </div>
                     </div>
                 </Card.Body>

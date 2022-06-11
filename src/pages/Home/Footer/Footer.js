@@ -24,7 +24,6 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/bm-zahidul-islam-9250a4156/" target={'_blank'} rel={'noopener noreferrer'}><img className='me-4 hover1' src={linkedin} alt="" /></a>
                     <a href="https://wa.me/1675633294" target={'_blank'}
                         rel={'noopener noreferrer'}><img className='me-4 hover1' src={whatsapp} alt="" /></a>
-
                 </p>
 
             </footer>
