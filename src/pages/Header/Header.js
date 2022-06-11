@@ -31,9 +31,9 @@ const Header = () => {
                                     Home
                                 </NavLink>
                             </LinkContainer>
-                            <LinkContainer to='/project'>
+                            <LinkContainer to='/Showcase'>
                                 <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
-                                    Projects
+                                    Showcase
                                 </NavLink>
                             </LinkContainer>
                             <LinkContainer to='/about'>
