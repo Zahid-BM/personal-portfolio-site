@@ -9,6 +9,7 @@ import { ToastContainer } from 'react-toastify';
 import Zandz from './pages/Projects/Zandz';
 import FruitsValley from './pages/Projects/FruitsValley';
 import AlemLifeCoach from './pages/Projects/AlemLifeCoach';
+import ReviewBaba from './pages/Projects/ReviewBaba';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/zandz' element={<Zandz />} />
         <Route path='/fruitsvalley' element={<FruitsValley />} />
         <Route path='/alemlifecoach' element={<AlemLifeCoach />} />
+        <Route path='/reviewbaba' element={<ReviewBaba />} />
         <Route path='/contact' element={<ContactMe />} />
       </Routes>
 

@@ -89,24 +89,24 @@ const Projects = () => {
                         </Col>
                         <Col>
                             <Card className='border-0 h-100 shadow'>
-                                <Card.Img variant="top" src={'https://i.ibb.co/k65pBNL/z-z-1.png'} />
+                                <Card.Img variant="top" src={'https://i.ibb.co/nwGvjsX/review-1.png'} />
                                 <Card.Body className='bg-box1 d-flex flex-column'>
-                                    <Card.Title className='fw-bolder text-warning'>Z&Z Trims Manufacturer</Card.Title>
+                                    <Card.Title className='fw-bolder text-warning'>Review Baba</Card.Title>
                                     <Card.Text className='text-white'>
-                                        A Full Stack mobile responsive Trims Manufacturer Website with MER
+                                        An interactive mobile responsive SPA Book review Website with Reactjs
                                     </Card.Text>
                                     <Card.Subtitle className='fw-bold text-warning'>
                                         Built with :
                                     </Card.Subtitle>
                                     <Card.Text className='text-white'>
-                                        Reactjs, Express, Node, MongoDB, Bootstrap, React Query, Rest API, Firebase, Stripe Payment Gateway, Heroku, React Router, Json Web Token, Environment variable etc.
+                                        Reactjs, Bootstrap, Custom hook, Rechart, React Router etc.
                                     </Card.Text>
                                     <div className="d-flex justify-content-evenly mt-auto">
                                         <div>
-                                            <a href={'https://garments-accessories.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-4 rounded-pill text-white hover1'>Visit Site</Button></a>
+                                            <a href={'https://reveiw-baba.netlify.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-4 rounded-pill text-white hover1'>Visit Site</Button></a>
                                         </div>
                                         <div>
-                                            <Link to='/zandz'><Button variant='warning' className='px-4 rounded-pill text-white hover1'>Details info</Button></Link>
+                                            <Link to='/reviewbaba'><Button variant='warning' className='px-4 rounded-pill text-white hover1'>Details info</Button></Link>
                                         </div>
                                     </div>
                                 </Card.Body>

@@ -2,18 +2,18 @@ import React from 'react';
 import { Button, Card, Carousel, Container } from 'react-bootstrap';
 import PageTitle from '../shared/PageTitle/PageTitle';
 
-const AlemLifeCoach = () => {
+const ReviewBaba = () => {
     return (
         <>
             <Container className='my-4'>
-                <PageTitle title={'Alem Life Coach'} pageColor={'bg-banner'}></PageTitle>
+                <PageTitle title={'Review Baba'} pageColor={'bg-banner'}></PageTitle>
                 <Card className='rounded-1'>
                     <Card.Body className='bg-box1'>
                         <Card.Title className='text-center text-white'>
-                            Alem Life Coach
+                            Review Baba
                         </Card.Title>
                         <Card.Subtitle className='fw-bold text-white text-center'>
-                            A Full functional mobile responsive Life Coach Website with Reactjs.
+                            An interactive mobile responsive SPA Book review Website with Reactjs.
                         </Card.Subtitle>
 
                     </Card.Body>
@@ -21,28 +21,28 @@ const AlemLifeCoach = () => {
                         <Carousel.Item interval={1000}>
                             <img
                                 className="d-block w-100"
-                                src="https://i.ibb.co/nC404nv/alem-1.png"
+                                src="https://i.ibb.co/nwGvjsX/review-1.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item interval={1000}>
                             <img
                                 className="d-block w-100"
-                                src="https://i.ibb.co/r2PYH1C/alem-2.png"
+                                src="https://i.ibb.co/MgWkPCJ/review-2.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item interval={1000}>
                             <img
                                 className="d-block w-100"
-                                src="https://i.ibb.co/wMZ396Q/alem-3.png"
+                                src="https://i.ibb.co/gSkYKVF/review-3.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item interval={1000}>
                             <img
                                 className="d-block w-100"
-                                src="https://i.ibb.co/BP1HTSw/alem-4.png"
+                                src="https://i.ibb.co/tXrNGPY/review-4.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
@@ -53,32 +53,32 @@ const AlemLifeCoach = () => {
                             Main Features of this website :
                         </Card.Subtitle>
                         <Card.Text className='text-white'>
-                            <li className='ms-3'>User can create an account with email verification and can login with registered email and password.</li>
+                            <li className='ms-3'>Clicking on Explore Reviews button user will be redirected to reviews route and there user can see all the reviews.</li>
                         </Card.Text>
                         <Card.Text className='text-white'>
-                            <li className='ms-3'> If a user forgets the password then can reset the password via reset password link sent to email.</li>
+                            <li className='ms-3'> IIn the home page only three reviews are displayed. Prevented to show all the reviews.</li>
                         </Card.Text>
                         <Card.Text className='text-white'>
-                            <li className='ms-3'>  A user can visit but can not order until having an account coz Enroll/purchase page is a protected route. Social login is added to make that easier.</li>
+                            <li className='ms-3'>  AThere is a button in the home page named see all reviews and after clicking on that button user will be redirected to reviews route and there user can see all the reviews.</li>
                         </Card.Text>
                         <Card.Text className='text-white'>
-                            <li className='ms-3'>   Without email verification no user can enroll any service. If user click to enroll service then verified user can see the purchase page.</li>
+                            <li className='ms-3'> A financial reports is shown in the two charts in the dashboard.</li>
                         </Card.Text>
                         <Card.Text className='text-white'>
-                            <li className='ms-3'>  Track user's route location from where he/she attempted to visit protected route and if not logged in then redirects to login page. After login user will be redirected to the targeted protected route. Even if reload then user stays in the same route.</li>
+                            <li className='ms-3'>  Implemented react router for SPA so that the page is being reloaded and user experience is awesome.</li>
                         </Card.Text>
                         <Card.Subtitle className='fw-bold text-warning fw-bolder fs-5 my-3'>
                             Main Technologies :
                         </Card.Subtitle>
                         <Card.Text className='text-white'>
-                            Reactjs, Bootstrap, Fake Data, Firebase, Firebase Authentication Hook, React Router etc.
+                            Reactjs, Bootstrap, Custom hook, Rechart, React Router etc.
                         </Card.Text>
                         <div className="d-flex justify-content-evenly mt-auto">
                             <div>
-                                <a href={'https://alem-life-coach.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-5 fw-bold rounded-pill text-white hover1 py-2'>Live Site</Button></a>
+                                <a href={'https://reveiw-baba.netlify.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-5 fw-bold rounded-pill text-white hover1 py-2'>Live Site</Button></a>
                             </div>
                             <div>
-                                <a href={'https://github.com/Zahid-BM/alem-life-coach-react'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-5 fw-bold rounded-pill text-white hover1 py-2'>Code Link</Button></a>
+                                <a href={'https://github.com/Zahid-BM/review-baba-react-router-and-bootstrap'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-5 fw-bold rounded-pill text-white hover1 py-2'>Code Link</Button></a>
                             </div>
                         </div>
                     </Card.Body>
@@ -89,4 +89,4 @@ const AlemLifeCoach = () => {
     );
 };
 
-export default AlemLifeCoach;
+export default ReviewBaba;

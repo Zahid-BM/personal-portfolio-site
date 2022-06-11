@@ -5,7 +5,7 @@ const Zandz = () => {
     return (
         <>
             <Container className='my-4'>
-                <PageTitle title={''} pageColor={'bg-banner'}></PageTitle>
+                <PageTitle title={'Z&Z Trims'} pageColor={'bg-banner'}></PageTitle>
                 <Card className='rounded-1'>
                     <Card.Body className='bg-box1'>
                         <Card.Title className='text-center text-white'>
