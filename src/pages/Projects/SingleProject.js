@@ -21,8 +21,9 @@ const SingleProject = ({ project }) => {
                             {technology}
                         </Card.Text>
                         <div className="d-flex justify-content-evenly mt-auto">
-                            <div>
-                                <Button variant='warning' className='px-4 rounded-pill text-white hover1'>Visit Site</Button>
+                        <div>
+                            <a href="http://">  <Button variant='warning' className='px-4 rounded-pill text-white hover1'>Visit Site</Button></a>
+                              
                             </div>
                             <div>
                                 <Button variant='warning' className='px-4 rounded-pill text-white hover1'>Details info</Button>

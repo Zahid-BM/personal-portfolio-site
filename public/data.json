@@ -12,7 +12,9 @@
          "description3": "General user will have a fully functional CRUD operation experience. They can add their profile to the database and can add a review that will be displayed in the review section.",
                "description4": "Payment Gateway available. User can pay via credit card and admin can verify for further action.",
          "description5": "Admin dashboard and admin role is available. Admin can see all the orders, modify orders, can add a new item and ship the products after payment verification. An admin can also make a user as an admin and remove as well.",
-         "technology": "Reactjs, Express, Node, MongoDB, Bootstrap, React Query, Rest API, Firebase, Stripe Payment Gateway, Heroku, React Router etc."
+         "technology": "Reactjs, Express, Node, MongoDB, Bootstrap, React Query, Rest API, Firebase, Stripe Payment Gateway, Heroku, React Router, Json Web Token, Environment variable etc.",
+         "siteLink" : "https://garments-accessories.web.app/",
+         "codeLink" : "https://github.com/Zahid-BM/z-and-z-trims-full-stack-with-mern" 
     },
     {
         "id": "2",
@@ -27,7 +29,9 @@
          "description3": "Registered user will have a fully functional CRUD operation experience. They can restock items, can deliver the items. If deliver then item quantity will be decreased and if restock then item quantity will be increased in the database. And updated data will be displayed on UI.",
                "description4": "User can request an item to stock and the user input will be stored in the database. User also can see all user's requested products in the Requested Items Page.",
          "description5": " Individual user can see all his/her ordered products in my orders page.There user can delete the order and the order will be deleted from database and update the UI as well.",
-         "technology": "Reactjs, Express, Node, MongoDB, Bootstrap, Axios, Rest API, Firebase, Firebase Authentication Hook, Heroku, React Router etc."
+         "technology": "Reactjs, Express, Node, MongoDB, Bootstrap, Axios, Rest API, Firebase, Firebase Authentication Hook, Heroku, React Router, Json Web Token, Environment variable etc.",
+          "siteLink" : "https://fruits-warehouse-f1061.web.app/",
+         "codeLink" : "https://github.com/Zahid-BM/fruits-valley-full-stack-with-mern" 
     },
     {
         "id": "3",
@@ -42,7 +46,9 @@
          "description3": "A user can visit but can not order until having an account coz Enroll/purchase page is a protected route. Social login is added to make that easier.",
                "description4": "Without email verification no user can enroll any service. If user click to enroll service then verified user can see the purchase page.",
          "description5": "Track user's route location from where he/she attempted to visit protected route and if not logged in then redirects to login page. After login user will be redirected to the targeted protected route. Even if reload then user stays in the same route.",
-         "technology": "Reactjs, Bootstrap, Rest API, Firebase, Firebase Authentication Hook, React Router etc."
+         "technology": "Reactjs, Bootstrap, Fake Data, Firebase, Firebase Authentication Hook, React Router etc.",
+          "siteLink" : "https://alem-life-coach.web.app/",
+         "codeLink" : "https://github.com/Zahid-BM/alem-life-coach-react" 
     },
     {
         "id": "4",
@@ -55,9 +61,11 @@
         "description1": "Clicking on Explore Reviews button user will be redirected to reviews route and there user can see all the reviews.",
          "description2": "In the home page only three reviews are displayed. Prevented to show all the reviews.",
          "description3": "There is a button in the home page named see all reviews and after clicking on that button user will be redirected to reviews route and there user can see all the reviews.",
-               "description4": "A financial reports is shown in the two charts in the dashboard..",
+               "description4": "A financial reports is shown in the two charts in the dashboard.",
          "description5": "Implemented react router for SPA so that the page is being reloaded and user experience is awesome.",
-         "technology": "Reactjs, Bootstrap, Custom hook, Rechart, React Router etc."
+         "technology": "Reactjs, Bootstrap, Custom hook, Rechart, React Router etc.",
+          "siteLink" : "https://reveiw-baba.netlify.app/",
+         "codeLink" : "https://github.com/Zahid-BM/review-baba-react-router-and-bootstrap" 
     }
    
 ]
