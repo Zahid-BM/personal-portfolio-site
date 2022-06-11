@@ -27,22 +27,22 @@ const Header = () => {
                     <Navbar.Collapse className='nav-bg' id="responsive-navbar-nav">
                         <Nav className="mx-auto nav-bg">
                             <LinkContainer to='/home'>
-                                <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
+                                <NavLink className='me-lg-5 btn-outline-light rounded-pill px-4 text-center my-2'>
                                     Home
                                 </NavLink>
                             </LinkContainer>
                             <LinkContainer to='/Showcase'>
-                                <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
+                                <NavLink className='me-lg-5 btn-outline-light rounded-pill px-4 text-center my-2'>
                                     Showcase
                                 </NavLink>
                             </LinkContainer>
                             <LinkContainer to='/about'>
-                                <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
+                                <NavLink className='me-lg-5 btn-outline-light rounded-pill px-4 text-center my-2'>
                                     About
                                 </NavLink>
                             </LinkContainer>
                             <LinkContainer to='/blogs'>
-                                <NavLink className='me-lg-5 btn-outline-warning rounded-pill px-4 text-center my-2'>
+                                <NavLink className='me-lg-5 btn-outline-light rounded-pill px-4 text-center my-2'>
                                     Blogs
                                 </NavLink>
                             </LinkContainer>
@@ -52,7 +52,7 @@ const Header = () => {
                             <LinkContainer to='/contact'>
                                 <NavLink className='text-center'>
                                     <Pulse forever='true'>
-                                        <Button variant='outline-warning' size='lg' className='rounded-pill px-5 hover1'>
+                                        <Button variant='outline-secondary' size='lg' className='rounded-pill px-5 hover1'>
                                             Conatct Me
                                         </Button>
                                     </Pulse>

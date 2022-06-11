@@ -23,18 +23,18 @@ const ContactMe = () => {
     }
     return (
         <>
-            <PageTitle title={'Contact'} pageColor={'bg-banner'}></PageTitle>
+            <PageTitle title={'Contact'} pageColor={'bg-box2'}></PageTitle>
             <Container className='my-5'>
                 <h3 className='text-center text-secondary'>I would love to be get in touched</h3>
-                <h1 className='text-center display-1 fw-bolder text-warning'>Feel free to reach me. </h1>
+                <h1 className='text-center display-1 fw-bolder text-secondary'>Feel free to reach me. </h1>
                 <Row className='my-3 py-3'>
 
                     <Col lg={4}>
                         <Bounce top>
-                            <div className='shadow-lg custom-radius my-auto mb-4 py-5 bg-box'>
+                            <div className='shadow-lg custom-radius my-auto mb-4 py-5 bg-box2'>
                                 <div className="p-4 d-flex flex-column align-items-center">
                                     <div className='d-flex align-items-center my-3'>
-                                        <RubberBand duration={1500} forever='true'><div className='bg-warning rounded-circle p-3 me-3'><img src={location} alt="" /></div></RubberBand>
+                                        <RubberBand duration={1500} forever='true'><div className='bg-secondary rounded-circle p-3 me-3'><img src={location} alt="" /></div></RubberBand>
                                         <div className='mt-2'>
                                             <h6 className='me-2'> <span className='fw-bold fs-5'> Address :</span> <br />
                                                 Uttara, Dhaka, Bangladesh.
@@ -42,7 +42,7 @@ const ContactMe = () => {
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center my-3'>
-                                        <RubberBand duration={1500} forever='true'>  <div className='bg-warning rounded-circle p-3 me-3'><img src={email} alt="" /></div></RubberBand>
+                                        <RubberBand duration={1500} forever='true'>  <div className='bg-secondary rounded-circle p-3 me-3'><img src={email} alt="" /></div></RubberBand>
                                         <div className='mt-2'>
                                             <h6> <span className='fw-bold fs-5'> Email :</span> <br />
                                                 bmzahidulislam@outlook.com
@@ -50,7 +50,7 @@ const ContactMe = () => {
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center my-3'>
-                                        <RubberBand duration={1500} forever='true'> <div className='bg-warning rounded-circle p-3 me-3'><img src={phone} alt="" /></div></RubberBand>
+                                        <RubberBand duration={1500} forever='true'> <div className='bg-secondary rounded-circle p-3 me-3'><img src={phone} alt="" /></div></RubberBand>
                                         <div className='mt-2'>
                                             <h6 className='p-m'> <span className='fw-bold fs-5'> Phone :</span> <br />
                                                 +8801675633294
@@ -68,25 +68,25 @@ const ContactMe = () => {
                             <Form onSubmit={handleFormSubmit}>
                                 <Row className='mb-3'>
                                     <Col>
-                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' placeholder="Name" name='name' required />
+                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Name" name='name' required />
                                     </Col>
                                     <Col>
-                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' placeholder="Email" name='email' required />
+                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Email" name='email' required />
                                     </Col>
                                 </Row>
                                 <Row className='mb-3'>
                                     <Col>
-                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' placeholder="Phone" name='phone' required />
+                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Phone" name='phone' required />
                                     </Col>
                                     <Col>
-                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' placeholder="Subject" name='subject' required />
+                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Subject" name='subject' required />
                                     </Col>
                                 </Row>
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                    <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-banner text-secondary' as="textarea" rows={3} placeholder="Your Message" name='message' required />
+                                    <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' as="textarea" rows={3} placeholder="Your Message" name='message' required />
                                 </Form.Group>
                                 <div className='text-center text-sm-start'>
-                                    <Button size='lg' variant="warning" className='rounded-pill px-5 py-3 hover1 mt-3' type="submit">
+                                    <Button size='lg' variant="secondary" className='rounded-pill px-5 py-3 hover1 mt-3' type="submit">
                                         Submit Message
                                     </Button>
                                 </div>

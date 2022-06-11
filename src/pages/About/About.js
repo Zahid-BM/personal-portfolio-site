@@ -8,18 +8,18 @@ import Bounce from 'react-reveal/Bounce';
 const About = () => {
     return (
         <>
-            <PageTitle title={'About'} pageColor={'bg-banner'}></PageTitle>
+            <PageTitle title={'About'} pageColor={'bg-box2'}></PageTitle>
             <Container>
                 <Row>
                     <Col className='my-auto' lg={6}>
                         <Roll left>
-                            <h1 className="fw-bolder display-1 mt-4 mt-md-0">About Me</h1>
+                            <h1 className="fw-bolder display-1 mt-4 mt-md-0 text-secondary">About Me</h1>
                             <h2>A short introduction</h2>
                         </Roll>
 
                         <hr />
                         <Bounce bottom cascade>
-                            <div className='text-secondary'>
+                            <div className='text-white'>
                                 <p>
                                     I am a passionate programmer who loves to code and create something interesting that can make me different from others. Learning is my habit and dedication is my key. Professionalism, honesty and skills make me more confident than ever.
                                 </p>

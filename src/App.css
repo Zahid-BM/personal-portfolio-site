@@ -10,6 +10,9 @@
 .bg-box1{
   background-image: linear-gradient(#525E75, #00C897);
 }
+.bg-box2{
+  background-image: linear-gradient(#EFF8FF, #4B8673);
+}
 .profile-img{
 width: 390px;
 }

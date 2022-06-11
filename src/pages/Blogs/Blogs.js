@@ -5,7 +5,7 @@ import PageTitle from '../shared/PageTitle/PageTitle';
 const Blogs = () => {
     return (
         <>
-<PageTitle title={'Blogs'} pageColor={'bg-banner'}></PageTitle>
+<PageTitle title={'Blogs'} pageColor={'bg-box2'}></PageTitle>
             <img className='w-100 h-100 img-fluid' src={coming} alt="" />
 
 

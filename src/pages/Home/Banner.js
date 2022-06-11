@@ -20,19 +20,20 @@ const Banner = () => {
 
 
     return (
-        <div className='bg-banner'>
+        <div className='bg-box2'>
             <Container style={{ backgroundImage: `url(${imgBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                 <Row>
                     <Col className='my-auto text-center text-sm-start' lg={6}>
                         <Bounce left>
                             <div className='pt-4'>
-                                <h1 className='fw-bolder'>Hello, I Am <br /> <span className='fw-bolder display-4 text-warning '>
+                                <h1 className='fw-bolder text-secondary'>Hello, I Am <br /> <span className='fw-bolder display-4 text-white '>
                                     <Flip left cascade duration={4000} forever='true'>
                                         BM. Zahidul Islam
                                     </Flip>
                                 </span></h1>
+                                <hr />
                                 <p className='text-secondary fw-bold'>A Full-stack Web Developer with full of dedication and professionalism. Skills, coping with new technologies and thirst for gathering knowledge make me a confident Web Developer.</p>
-                                <a href={resumeLink} download><Button variant='outline-warning' className='px-4 py-2 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-6'>Download Resume
+                                <a href={resumeLink} download><Button variant='outline-light' className='px-4 py-2 rounded-pill fw-bold hover1 mb-4 fw-bolder fs-6'>Download Resume
                                     <Jump duration={2000} forever='true'>
                                         <img className='ms-3' src={download} alt="" />
                                     </Jump>
