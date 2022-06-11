@@ -13,16 +13,16 @@ const Projects = () => {
     return (
         <>
             <Container className='my-5'>
-                <h3 className='text-center text-secondary'>See my recent projects</h3>
+                <h3 className='text-center text-dark'>See my recent projects</h3>
                 <h1 className='text-center display-1 fw-bolder text-warning'>Below are the most recent </h1>
                 <Rotate bottom left>
-                <Row xs={1} md={2} className="g-4">
-                
+                    <Row xs={1} md={2} className="g-4">
+
                         {
                             projects.map(project => <SingleProject key={project.id} project={project}></SingleProject>)
                         }
-                </Row>
-                 </Rotate>
+                    </Row>
+                </Rotate>
             </Container>
 
         </>

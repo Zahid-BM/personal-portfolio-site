@@ -7,11 +7,10 @@ import linkedin from '../../resources/images/icons/linkedin.png';
 import whatsapp from '../../resources/images/icons/whatsapp.png';
 import email from '../../resources/images/icons/email.png';
 import download from '../../resources/images/icons/download.png';
-import { Bounce, LightSpeed } from 'react-reveal';
+import { Bounce } from 'react-reveal';
 import Pulse from 'react-reveal/Pulse';
 import Shake from 'react-reveal/Shake';
 import Jump from 'react-reveal/Jump';
-import Zoom from 'react-reveal/Zoom';
 import Flip from 'react-reveal/Flip';
 
 
