@@ -7,6 +7,8 @@ import Header from './pages/Header/Header';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import Zandz from './pages/Projects/Zandz';
+import FruitsValley from './pages/Projects/FruitsValley';
+import AlemLifeCoach from './pages/Projects/AlemLifeCoach';
 
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/zandz' element={<Zandz />} />
+        <Route path='/fruitsvalley' element={<FruitsValley />} />
+        <Route path='/alemlifecoach' element={<AlemLifeCoach />} />
         <Route path='/contact' element={<ContactMe />} />
       </Routes>
 

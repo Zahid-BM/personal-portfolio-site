@@ -23,7 +23,7 @@
         "img3": "https://i.ibb.co/cDBHjDV/fruits-3.png",
         "img4": "https://i.ibb.co/V39mtrw/fruits-4.png",
         "name": "Fruits Valley Ware House",
-        "about": "A Full Stack mobile responsive Trims Manufacturer Website with MERN",
+        "about": "A Full Stack mobile responsive Warehouse Management Website with MERN",
         "description1": "User can create an account with email verification, login  and can do password reset if password is forgotten.",
          "description2": "A user can visit but can not order until having an account coz Order page is a protected route. Social login is added to make that easier. But without email verification no user can.order any item.",
          "description3": "Registered user will have a fully functional CRUD operation experience. They can restock items, can deliver the items. If deliver then item quantity will be decreased and if restock then item quantity will be increased in the database. And updated data will be displayed on UI.",
