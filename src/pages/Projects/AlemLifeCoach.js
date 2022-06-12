@@ -6,10 +6,10 @@ const AlemLifeCoach = () => {
     return (
         <>
             <Container className='my-4'>
-                <PageTitle title={'Alem Life Coach'} pageColor={'bg-banner'}></PageTitle>
+                <PageTitle title={'Alem Life Coach'} pageColor={'bg-box2'}></PageTitle>
                 <Card className='rounded-1'>
-                    <Card.Body className='bg-box1'>
-                        <Card.Title className='text-center text-white'>
+                    <Card.Body className='bg-box2'>
+                        <Card.Title className='text-center text-secondary'>
                             Alem Life Coach
                         </Card.Title>
                         <Card.Subtitle className='fw-bold text-white text-center'>
@@ -73,12 +73,12 @@ const AlemLifeCoach = () => {
                         <Card.Text className='text-white'>
                             Reactjs, Bootstrap, Fake Data, Firebase, Firebase Authentication Hook, React Router etc.
                         </Card.Text>
-                        <div className="d-flex justify-content-evenly mt-auto">
-                            <div>
-                                <a href={'https://alem-life-coach.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-5 fw-bold rounded-pill text-white hover1 py-2'>Live Site</Button></a>
+                        <div className="d-md-flex justify-content-evenly mt-auto">
+                            <div className='my-3'>
+                                <a href={'https://alem-life-coach.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-5 fw-bold rounded-pill  hover1 py-2'>Live Site</Button></a>
                             </div>
-                            <div>
-                                <a href={'https://github.com/Zahid-BM/alem-life-coach-react'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='warning' className='px-5 fw-bold rounded-pill text-white hover1 py-2'>Code Link</Button></a>
+                            <div className='my-3'>
+                                <a href={'https://github.com/Zahid-BM/alem-life-coach-react'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-5 fw-bold rounded-pill  hover1 py-2'>Code Link</Button></a>
                             </div>
                         </div>
                     </Card.Body>

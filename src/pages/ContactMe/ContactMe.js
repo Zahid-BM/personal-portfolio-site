@@ -34,7 +34,7 @@ const ContactMe = () => {
                             <div className='shadow-lg custom-radius my-auto mb-4 py-5 bg-box2'>
                                 <div className="p-4 d-flex flex-column align-items-center">
                                     <div className='d-flex align-items-center my-3'>
-                                        <RubberBand duration={1500} forever='true'><div className='bg-secondary rounded-circle p-3 me-3'><img src={location} alt="" /></div></RubberBand>
+                                        <RubberBand duration={1500} forever='true'><div className='bg-light rounded-circle p-3 me-3'><img src={location} alt="" /></div></RubberBand>
                                         <div className='mt-2'>
                                             <h6 className='me-2'> <span className='fw-bold fs-5'> Address :</span> <br />
                                                 Uttara, Dhaka, Bangladesh.
@@ -42,7 +42,7 @@ const ContactMe = () => {
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center my-3'>
-                                        <RubberBand duration={1500} forever='true'>  <div className='bg-secondary rounded-circle p-3 me-3'><img src={email} alt="" /></div></RubberBand>
+                                        <RubberBand duration={1500} forever='true'>  <div className='bg-light rounded-circle p-3 me-3'><img src={email} alt="" /></div></RubberBand>
                                         <div className='mt-2'>
                                             <h6> <span className='fw-bold fs-5'> Email :</span> <br />
                                                 bmzahidulislam@outlook.com
@@ -50,7 +50,7 @@ const ContactMe = () => {
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center my-3'>
-                                        <RubberBand duration={1500} forever='true'> <div className='bg-secondary rounded-circle p-3 me-3'><img src={phone} alt="" /></div></RubberBand>
+                                        <RubberBand duration={1500} forever='true'> <div className='bg-light rounded-circle p-3 me-3'><img src={phone} alt="" /></div></RubberBand>
                                         <div className='mt-2'>
                                             <h6 className='p-m'> <span className='fw-bold fs-5'> Phone :</span> <br />
                                                 +8801675633294
@@ -86,7 +86,7 @@ const ContactMe = () => {
                                     <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' as="textarea" rows={3} placeholder="Your Message" name='message' required />
                                 </Form.Group>
                                 <div className='text-center text-sm-start'>
-                                    <Button size='lg' variant="secondary" className='rounded-pill px-5 py-3 hover1 mt-3' type="submit">
+                                    <Button size='lg' variant="outline-light" className='rounded-pill px-5 py-3 hover1 mt-3' type="submit">
                                         Submit Message
                                     </Button>
                                 </div>
