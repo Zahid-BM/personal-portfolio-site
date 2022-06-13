@@ -6,6 +6,16 @@ import nodejs from '../../resources/images/icons/nodejs.png';
 import express from '../../resources/images/icons/express.png';
 import mongodb from '../../resources/images/icons/mongodb.png';
 import bootstrap from '../../resources/images/icons/bootstrap.png';
+import html from '../../resources/images/icons/html5.png';
+import Css from '../../resources/images/icons/css3.png';
+import firebase from '../../resources/images/icons/firebase.png';
+import jwt from '../../resources/images/icons/jwt.png';
+import api from '../../resources/images/icons/api.png';
+import npm from '../../resources/images/icons/npm.png';
+import git from '../../resources/images/icons/git.png';
+import vscode from '../../resources/images/icons/vscode.png';
+import github from '../../resources/images/icons/github.png';
+import reactRouter from '../../resources/images/icons/react-router.png';
 import Bounce from 'react-reveal/Bounce';
 import Pulse from 'react-reveal/Pulse';
 
@@ -39,10 +49,34 @@ const Skills = () => {
                                 <img className='w-100' src={bootstrap} alt="" /> <span className='fw-bolder fs-2 '>Bootstrap5</span>
                             </Col>
                             <Col className='text-center'>
-                                <img className='w-100' src={bootstrap} alt="" /> <span className='fw-bolder fs-2 '>HTML5</span>
+                                <img className='w-100' src={Css} alt="" /> <span className='fw-bolder fs-2 '>CSS3</span>
                             </Col>
                             <Col className='text-center'>
-                                <img className='w-100' src={bootstrap} alt="" /> <span className='fw-bolder fs-2 '>CSS3</span>
+                                <img className='w-100' src={html} alt="" /> <span className='fw-bolder fs-2 '>HTML5</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={firebase} alt="" /> <span className='fw-bolder fs-2 '>Firebase</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={jwt} alt="" /> <span className='fw-bolder fs-2 '>Json Web Token</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={api} alt="" /> <span className='fw-bolder fs-2 '>RESTful API</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={npm} alt="" /> <span className='fw-bolder fs-2 '>NPM</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={git} alt="" /> <span className='fw-bolder fs-2 '>GIT</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='mb-3 custom-radius1' src={reactRouter} alt="" /> <span className='fw-bolder fs-2 '>React Router</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={vscode} alt="" /> <span className='fw-bolder fs-2 '>VS Code</span>
+                            </Col>
+                            <Col className='text-center'>
+                                <img className='w-100' src={github} alt="" /> <span className='fw-bolder fs-2 '>GitHub</span>
                             </Col>
                         </Pulse>
                     </Row>

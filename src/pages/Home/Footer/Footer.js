@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../resources/images/Logo-1.png';
-import github from '../../../resources/images/icons/github.png';
+import github from '../../../resources/images/icons/github1.png';
 import whatsapp from '../../../resources/images/icons/whatsapp.png';
 import linkedin from '../../../resources/images/icons/linkedin.png';
 

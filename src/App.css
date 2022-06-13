@@ -30,6 +30,13 @@ width: 390px;
 .custom-radius{
   border-radius: 10%;
 }
+.custom-radius1{
+  border-radius: 15%;
+  height: 260px;
+  margin-top: 20px;
+  width: 88%;
+
+}
 
 
 
