@@ -2,6 +2,9 @@ import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import Rotate from 'react-reveal/Rotate';
 import { Link } from 'react-router-dom';
+import { GoInfo } from "react-icons/go";
+import { BsGlobe } from "react-icons/bs";
+
 
 const Projects = () => {
 
@@ -29,10 +32,10 @@ const Projects = () => {
                                     </Card.Text>
                                     <div className="d-flex justify-content-evenly mt-auto">
                                         <div>
-                                            <a href={'https://garments-accessories.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-4 rounded-pill  hover1'>Visit Site</Button></a>
+                                            <a href={'https://garments-accessories.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Website <BsGlobe className='fw-bolder fs-5 '></BsGlobe></Button></a>
                                         </div>
                                         <div>
-                                            <Link to='/zandz'><Button variant='secondary' className='px-4 rounded-pill  hover1'>Details info</Button></Link>
+                                            <Link to='/zandz'><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Details <GoInfo className='fw-bolder fs-4'></GoInfo></Button></Link>
                                         </div>
                                     </div>
                                 </Card.Body>
@@ -54,10 +57,10 @@ const Projects = () => {
                                     </Card.Text>
                                     <div className="d-flex justify-content-evenly mt-auto">
                                         <div>
-                                            <a href={'https://fruits-warehouse-f1061.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-4 rounded-pill  hover1'>Visit Site</Button></a>
+                                            <a href={'https://fruits-warehouse-f1061.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Website <BsGlobe className='fw-bolder fs-5 '></BsGlobe></Button></a>
                                         </div>
                                         <div>
-                                            <Link to='/fruitsvalley'><Button variant='secondary' className='px-4 rounded-pill  hover1'>Details info</Button></Link>
+                                            <Link to='/fruitsvalley'><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Details <GoInfo className='fw-bolder fs-4'></GoInfo></Button></Link>
                                         </div>
                                     </div>
                                 </Card.Body>
@@ -79,10 +82,10 @@ const Projects = () => {
                                     </Card.Text>
                                     <div className="d-flex justify-content-evenly mt-auto">
                                         <div>
-                                            <a href={'https://alem-life-coach.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-4 rounded-pill  hover1'>Visit Site</Button></a>
+                                            <a href={'https://alem-life-coach.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Website <BsGlobe className='fw-bolder fs-5 '></BsGlobe></Button></a>
                                         </div>
                                         <div>
-                                            <Link to='/alemlifecoach'><Button variant='secondary' className='px-4 rounded-pill  hover1'>Details info</Button></Link>
+                                            <Link to='/alemlifecoach'><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Details <GoInfo className='fw-bolder fs-4'></GoInfo></Button></Link>
                                         </div>
                                     </div>
                                 </Card.Body>
@@ -104,10 +107,10 @@ const Projects = () => {
                                     </Card.Text>
                                     <div className="d-flex justify-content-evenly mt-auto">
                                         <div>
-                                            <a href={'https://reveiw-baba.netlify.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-4 rounded-pill  hover1'>Visit Site</Button></a>
+                                            <a href={'https://reveiw-baba.netlify.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Website <BsGlobe className='fw-bolder fs-5 '></BsGlobe></Button></a>
                                         </div>
                                         <div>
-                                            <Link to='/reviewbaba'><Button variant='secondary' className='px-4 rounded-pill  hover1'>Details info</Button></Link>
+                                            <Link to='/reviewbaba'><Button variant='outline-light' className='px-4 rounded-pill  hover1'>Details <GoInfo className='fw-bolder fs-4'></GoInfo></Button></Link>
                                         </div>
                                     </div>
                                 </Card.Body>

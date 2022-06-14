@@ -1,5 +1,6 @@
 import { Button, Card, Carousel, Container } from 'react-bootstrap';
 import PageTitle from '../shared/PageTitle/PageTitle';
+import { BsGlobe } from "react-icons/bs";
 
 const Zandz = () => {
     return (
@@ -74,10 +75,10 @@ const Zandz = () => {
                         </Card.Text>
                         <div className="d-md-flex justify-content-evenly mt-auto ">
                             <div className='my-3'>
-                                <a href={'https://garments-accessories.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-5 fw-bold rounded-pill hover1 py-2'>Live Site</Button></a>
+                                <a href={'https://garments-accessories.web.app/'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='outline-light' className='px-5 fw-bold rounded-pill hover1 py-2'>Website <BsGlobe className='fw-bolder fs-5 '></BsGlobe></Button></a>
                             </div>
                             <div className='my-3'>
-                                <a href={'https://github.com/Zahid-BM/z-and-z-trims-full-stack-with-mern'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='secondary' className='px-5 fw-bold rounded-pill hover1 py-2'>Code Link</Button></a>
+                                <a href={'https://github.com/Zahid-BM/z-and-z-trims-full-stack-with-mern'} target={'_blank'} rel={'noopener noreferrer'}><Button variant='outline-light' className='px-5 fw-bold rounded-pill hover1 py-2'>Code Link</Button></a>
                             </div>
                         </div>
                     </Card.Body>
