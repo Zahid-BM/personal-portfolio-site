@@ -16,7 +16,7 @@ import git from '../../resources/images/icons/git.png';
 import vscode from '../../resources/images/icons/vscode.png';
 import github from '../../resources/images/icons/github.png';
 import reactRouter from '../../resources/images/icons/react-router.png';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
 
 const Skills = () => {
@@ -27,7 +27,7 @@ const Skills = () => {
                 <h3 className='text-center text-dark'>My expertise and skills</h3>
                 <h1 className='text-center display-1 fw-bolder text-secondary'>Love to work in </h1>
                 <hr />
-                <Bounce bottom>
+                <Fade left>
                     <Row xs={1} md={4} className='g-4 my-4'>
                         <Pulse duration={4000} forever="true">
                             <Col className='text-center'>
@@ -80,7 +80,7 @@ const Skills = () => {
                             </Col>
                         </Pulse>
                     </Row>
-                </Bounce>
+                </Fade>
             </Container>
 
         </>
