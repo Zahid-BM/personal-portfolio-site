@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar, NavLink } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import logo from '../../resources/images/Logo-1.png';
+import logo from '../../resources/images/signature-logo-1.png';
 import Pulse from 'react-reveal/Pulse';
 
 

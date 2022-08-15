@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../resources/images/Logo-1.png';
+import logo from '../../../resources/images/signature-logo-1.png';
 import github from '../../../resources/images/icons/github1.png';
 import whatsapp from '../../../resources/images/icons/whatsapp.png';
 import linkedin from '../../../resources/images/icons/linkedin.png';
@@ -9,7 +9,7 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
     return (
-        <div className='bg-secondary mt-5'>
+        <div className='bg-box3 mt-5'>
             <Zoom right>
             <footer className='text-center text-white py-5'>
                     <img src={logo} alt="" /><br />

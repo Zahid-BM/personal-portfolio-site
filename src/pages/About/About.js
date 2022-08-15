@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import PageTitle from '../shared/PageTitle/PageTitle';
 import img from '../../resources/images/me.png';
+import sign from '../../resources/images/signature-logo-1.png';
 import Roll from 'react-reveal/Roll';
 import Bounce from 'react-reveal/Bounce';
 
@@ -35,6 +36,7 @@ const About = () => {
                                     BM. Zahidul Islam <br />
                                     A Programmer with passion
                                 </p>
+
                             </div>
                         </Bounce>
                     </Col>
