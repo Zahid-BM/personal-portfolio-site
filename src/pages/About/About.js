@@ -25,17 +25,17 @@ const About = () => {
                                 </p>
 
                                 <p>
-                                    I am expert is HTML, CSS, BOOTSTRAP, REACTJS and good in MONGODB, EXPRESS and NODEJS. I am familiar with Neact Native, Nextjs and unit test. CAn also work with Tailwind CSS and DaisyUi. I am confident to learn and cope with any technology by the soonest possible time Insha Allah.
+                                    I am expert is HTML, CSS, BOOTSTRAP, REACTJS and good in MONGODB, EXPRESS and NODEJS. I am familiar with React Native, Nextjs and unit test. Can also work with Tailwind CSS and DaisyUi. I am confident to learn and cope with any new technology by the soonest possible time Insha Allah.
                                 </p>
 
                                 <p>
-                                    I believe by enriching myself and my skills I can contribute more for the society and the people as well.......
+                                    I believe that by enriching myself, with my skills and dedication I can contribute more to the industry, society and people as well.......
                                 </p>
                                 <p className='text-end mt-4 fw-bold'>
                                     BM. Zahidul Islam <br />
                                     A Programmer with passion
                                 </p>
-                           </div>
+                            </div>
                         </Bounce>
                     </Col>
                     <Col lg={6}>
