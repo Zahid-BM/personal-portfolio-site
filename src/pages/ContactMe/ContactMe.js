@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import location from '../../resources/images/icons/location.png';
 import email from '../../resources/images/icons/email-2.png';
@@ -7,19 +7,31 @@ import PageTitle from '../shared/PageTitle/PageTitle';
 import { toast } from 'react-toastify';
 import Bounce from 'react-reveal/Bounce';
 import RubberBand from 'react-reveal/RubberBand';
+import emailjs from '@emailjs/browser';
 
 
 const ContactMe = () => {
-    const handleFormSubmit = e => {
+    const form = useRef();
+    const sendEmail = e => {
         e.preventDefault();
+
+        // for console purposes
         const name = e.target.name.value;
         const email = e.target.email.value;
         const phone = e.target.phone.value;
         const subject = e.target.subject.value;
         const message = e.target.message.value;
         e.target.reset();
+
+        emailjs.sendForm('service_q2kwwuy', 'template_2je7hth', form.current, '0DI3KKuMQHC7wX5-l')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
         toast.success('Your message has been sent. I will contact back soon. Thanks......')
-        console.log(name, email, phone, subject, message);
+        // console.log(name, email, phone, subject, message);
     }
     return (
         <>
@@ -65,10 +77,10 @@ const ContactMe = () => {
 
                     <Col className='my-auto' lg={8}>
                         <Bounce right>
-                            <Form onSubmit={handleFormSubmit}>
+                            <Form ref={form} onSubmit={sendEmail}>
                                 <Row className='mb-3'>
                                     <Col>
-                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Name" name='name' required />
+                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Full Name" name='name' required />
                                     </Col>
                                     <Col>
                                         <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Email" name='email' required />
@@ -76,7 +88,7 @@ const ContactMe = () => {
                                 </Row>
                                 <Row className='mb-3'>
                                     <Col>
-                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Phone" name='phone' required />
+                                        <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Phone number with country code" name='phone' required />
                                     </Col>
                                     <Col>
                                         <Form.Control className='rounded-pill fs-5 border-0 shadow p-3 bg-box2 text-secondary' placeholder="Subject" name='subject' required />
