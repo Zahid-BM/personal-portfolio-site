@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import profileImg from '../../resources/images/profile.png';
+import profileImg from '../../resources/images/transparent-front-full-cropped.png';
 import imgBg from '../../resources/images/img-bg.png';
 import github from '../../resources/images/icons/github1.png';
 import linkedin from '../../resources/images/icons/linkedin.png';
