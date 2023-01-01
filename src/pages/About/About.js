@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import PageTitle from '../shared/PageTitle/PageTitle';
-import img from '../../resources/images/me.png';
+import img from '../../resources/images/transparent-side-cropped.png';
 import sign from '../../resources/images/signature-logo-1.png';
 import Roll from 'react-reveal/Roll';
 import Bounce from 'react-reveal/Bounce';
