@@ -15,11 +15,9 @@
 }
 .bg-box2{
   background-image: linear-gradient(#EFF8FF, #4B8673);
-  width: 100vw;
-  height: 100vh;
 }
 .profile-img{
-  width: 100%;
+  width: 90%;
 }
 .hover1:hover{
     transform: translate(0,-10px);
