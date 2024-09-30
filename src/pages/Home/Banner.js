@@ -21,7 +21,7 @@ const Banner = () => {
 
     return (
         <div className='bg-box2'>
-            <Container style={{ backgroundImage: `url(${imgBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+            <Container style={{ backgroundImage: `url(${imgBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
                 <Row>
                     <Col className='my-auto text-center text-sm-start' lg={6}>
                         <Bounce left>
